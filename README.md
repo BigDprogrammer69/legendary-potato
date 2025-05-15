@@ -1,4 +1,4 @@
 # legendary-potato
 intro to github
 <br>
-readme markdown file
+readme markdown (md) file 
