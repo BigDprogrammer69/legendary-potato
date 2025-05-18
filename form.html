@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form  action="index.html" method="POST">
+        <label for="username">username:</label>
+        <input type="text" id="username" placeholder="Min. 10 char" minlength="10" maxlength="20"><br>
+        <label for="password" method="POST">password:</label>
+        <input type="password" id="password" placeholder="Min. 6 char" minlength="6" maxlength="10" required><br>
+        <label for="email" > email:</label>
+        <input type="email" id="email" placeholder="example@gmail.com" required>
+        <br><label for="phone">phone no.</label>
+        <input type="text" id="phone" placeholder="eg.-1234567890" pattern="[0-9]{10}"><br>
+        <label for="dob">date of birth:</label>
+        <input type="date" id="dob"><br>
+        <label for="quantity">quantity:</label>
+        <input type="number" min="1"max="99"value="1"><br>
+        <label for="gender">sex:</label>
+        <label for="male">Male</label>
+        <input type="radio"id="male"value="Male"name="gender">
+        <label for="female">Female</label>
+        <input type="radio"id="female"value="Female"name="gender">
+        <br>
+        <label for="payment">Payment:</label>
+        <select id="payment">
+            <option value="cash">cash</option>
+            <option value="card">card</option>
+        </select><br>
+        <label for="sane">sane?</label>
+        <input type="checkbox"id="sane"><br>
+        <label for="comment">any comments?</label>
+        <textarea id="comment" rows="4" cols="50"></textarea><br>
+        <label for="file">upload photo:</label>
+        <input type="file"id="file"accept="image/png,image/jpeg">
+        <br><input type="reset"><br>
+        <input type="submit">
+    </form>
+</body>
+</html>

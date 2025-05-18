@@ -1,0 +1,31 @@
+body{
+    background-color: bisque;
+    border: 1px solid black;
+    margin:auto;
+    text-align:  center;
+}
+h3{
+    color: blue;
+}
+h3 mark{
+    color: inherit;
+}
+.odd{
+    color:red;
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+.even{
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+h1{
+    text-shadow: 3px 3px 5px red;
+}
+.image{
+    box-shadow: 5px 5px 5px black;
+}
